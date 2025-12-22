@@ -28,28 +28,7 @@ The OCA Krita exporter supports the most common features expected from drawing a
 
 ## Installation
 
-### Option A: Install from a release (recommended)
-
-1. Open the GitHub Releases page:
-   https://github.com/SimonHeggie/OCA-Krita-Plus/releases
-
-2. Download the latest release `.zip` file (the Krita plugin package).
-
-3. In Krita, go to:
-   **Tools → Scripts → Import Python Plugin…**
-
-4. Select the downloaded `.zip`, then confirm the install.
-
-5. Restart Krita.
-
-6. Enable the plugin if required:
-   **Settings → Configure Krita → Python Plugin Manager**
-   - Enable **OCA** / **OCA-Plus** (name may vary)
-   - Restart Krita again if prompted
-
-After restart, the exporter should be available via the OCA export UI (depending on how your plugin registers, this is typically under **Tools → Scripts** or inside the export menu entry provided by the plugin).
-
-### Option B: Manual install (advanced)
+### Install
 
 1. Download a release `.zip` (or clone the repository).
 
@@ -58,8 +37,11 @@ After restart, the exporter should be available via the OCA export UI (depending
    - **Windows:** `%APPDATA%\krita\pykrita\`
    - **macOS:** `~/Library/Application Support/krita/pykrita/`
 
-3. Copy the plugin folder into `pykrita/` so it looks like:
-   - `pykrita/OCA/` (and related package folders shipped by the plugin)
+3. Extect all 3 folders and desktop file into `pykrita/` so it looks like:
+   - `pykrita/OCA/`
+   - `pykrita/oca_krita/`
+   - `pykrita/oca_core/`
+   - `pykrita/OCA.desktop/`
 
 4. Restart Krita and enable it in:
    **Settings → Configure Krita → Python Plugin Manager**
