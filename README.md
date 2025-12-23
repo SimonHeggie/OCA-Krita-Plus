@@ -37,7 +37,7 @@ The OCA Krita exporter supports the most common features expected from drawing a
   - Choose **'Yes'** to **Enable plugins now**
   - Restart Krita
 
-### Install
+### Manual Installation:
 
 1. Download a release `.zip` (or clone the repository).
 
