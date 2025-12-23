@@ -28,6 +28,15 @@ The OCA Krita exporter supports the most common features expected from drawing a
 
 ## Installation
 
+### Installation v1.6.6 and up:
+
+  - Open **Krita**
+  - Go to: Tools → Scripts → Import Python Plugin…
+  - Select the archive: OCA-Plus_v1.6.6.zip
+  - Krita will report: “The following plugins were imported: OCA”
+  - Choose **'Yes'** to **Enable plugins now**
+  - Restart Krita
+
 ### Install
 
 1. Download a release `.zip` (or clone the repository).
