@@ -75,9 +75,6 @@ Originally created by Duduf
 Maintained as part of the RxLaboratorio ecosystem
 This branch maintained by Simon Heggie.
 
-## Current Version
-
-1.5.0
 
 ## Support and Community
 
